@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+.idea
 
 # testing
 /coverage
@@ -30,7 +31,6 @@ yarn-error.log*
 
 # vercel
 .vercel
-../.idea
 
 # typescript
 *.tsbuildinfo
