@@ -1,0 +1,8 @@
+node_modules
+
+#project files
+.idea
+.gitignore
+
+#files to ignore
+*.md

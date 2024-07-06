@@ -1,0 +1,19 @@
+{
+  "name": "test-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -L app.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//douglas86/test-nextjs.git"
+  },
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
