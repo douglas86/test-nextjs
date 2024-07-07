@@ -1,11 +1,11 @@
-version: "3.8"
-
 services:
-  api:
-    build: .
-    container_name: api_c
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: docker_next
     ports:
       - "3000:3000"
     volumes:
-      - ./:/app
-      - ./app/node_modules
+      - .:/app
+      - /app/node_modules
